@@ -25,9 +25,4 @@ git subtree pull --prefix=commn common main
 
 5. push subtree
 
-git subtree push --prefix=commn commonlib main
-
-
-
-
-2222222222222222222222222222222222222222222222222
+git subtree push --prefix=commn common main
