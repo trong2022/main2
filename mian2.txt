@@ -1,0 +1,27 @@
+1. add remote alias
+
+git remote add -f common https://github.com/trong2022/common.git
+
+
+
+2. add subtree
+
+git subtree add --prefix=commn common main --squash
+
+
+
+3. pull subtree
+
+git subtree pull --prefix=commn common main --squash
+
+
+
+4. split subtree
+
+git subtree split --rejoin --prefix=commn HEAD
+
+
+
+5. push subtree
+
+git subtree push --prefix=commn commonlib main
