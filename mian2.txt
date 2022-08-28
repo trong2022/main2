@@ -16,16 +16,16 @@ git subtree split --rejoin --prefix=commn HEAD
 
 
 
-4. pull subtree
+4. push subtree  ----must use 'split subtree' before push subtree
+
+git subtree push --prefix=commn common main
+
+
+
+5. pull subtree
 
 git subtree pull --prefix=commn common main
 
 
 
 
-5. push subtree
-
-git subtree push --prefix=commn common main
-
-
-22222222222222222222222222222222222222222222222222222222222222222222222
